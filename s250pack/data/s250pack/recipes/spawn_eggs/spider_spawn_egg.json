@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shaped",
+  "pattern": ["#X#","XAX","#X#"],
+  "key": {
+    "A": {"item": "minecraft:egg"},
+    "#": {"item": "minecraft:spider_eye"},
+    "X": {"item": "minecraft:ink_sac"}
+  },
+  "result": {
+    "item": "minecraft:spider_spawn_egg", "count": 1
+  }
+}

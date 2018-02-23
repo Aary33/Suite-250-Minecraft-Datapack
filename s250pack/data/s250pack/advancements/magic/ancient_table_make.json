@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_crystal",
+            "tag" : "{ench:[{id:0,lvl:0}]}"
+        },
+        "title": {
+          "text": "Dictator of History",
+          "color": "aqua",
+          "bold" : "true"
+        },
+        "description": {
+          "text": "Create an Ancient Imbruer",
+          "color": "light_purple"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "s250pack:magic/xp_collect"
+}
+

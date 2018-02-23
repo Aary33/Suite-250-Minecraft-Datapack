@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "title": {
+          "text": "Screams from Below",
+          "color": "dark_red"
+        },
+        "description": {
+          "text": "Unlock the Snekion Mages",
+          "color": "light_gray"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "s250pack:magic/root"
+}
+

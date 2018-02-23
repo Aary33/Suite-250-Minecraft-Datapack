@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rose_bush"
+        },
+        "title": {
+          "text": "Botanic Takeover",
+          "color": "aqua"
+        },
+        "description": {
+          "text": "Evolve a plant to its final stage",
+          "color": "light_gray"
+        }
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "s250pack:magic/root"
+}
+

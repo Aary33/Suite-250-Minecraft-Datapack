@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lilac",
+            "tag" : "{ench:[{id:0,lvl:0}]}"
+        },
+        "title": {
+          "text": "Novice of the Ancient Arts",
+          "color": "dark_purple",
+          "bold" : "true"
+        },
+        "description": {
+          "text": "Cast a spell",
+          "color": "light_purple"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "s250pack:magic/plant_evolver"
+}
+

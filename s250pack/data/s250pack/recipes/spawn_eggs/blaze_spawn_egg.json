@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shaped",
+  "pattern": ["#X#","XAX","#X#"],
+  "key": {
+    "A": {"item": "minecraft:egg"},
+    "#": {"item": "minecraft:blaze_rod"},
+    "X": {"item": "minecraft:dandelion_yellow"}
+  },
+  "result": {
+    "item": "minecraft:blaze_spawn_egg", "count": 1
+  }
+}

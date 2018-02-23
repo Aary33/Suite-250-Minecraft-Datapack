@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {
+          "text": "Experience Hoarder",
+          "color": "green"
+        },
+        "description": {
+          "text": "Create an XP Collector",
+          "color": "light_gray"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "s250pack:magic/root"
+}
+

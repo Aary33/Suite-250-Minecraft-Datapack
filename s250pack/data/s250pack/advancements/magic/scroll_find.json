@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:filled_map",
+            "tag" : "{ench:[{id:0,lvl:0}]}"
+        },
+        "title": {
+          "text": "Knowledge Seeker",
+          "color": "aqua",
+          "bold": "true"
+        },
+        "description": {
+          "text": "Acquire an Ancient Scroll",
+          "color": "light_gray"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "s250pack:magic/nether_hard"
+}
+

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mob_spawner",
+            "tag" : "{ench:[{id:0,lvl:0}]}"
+        },
+        "title": {
+          "text": "Rewriting Genetics",
+          "color": "dark_green",
+          "bold" : "false"
+        },
+        "description": {
+          "text": "Imbue a mob spawner with a creeper egg",
+          "color": "light_gray"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "s250pack:magic/ancient_table_make"
+}
+
