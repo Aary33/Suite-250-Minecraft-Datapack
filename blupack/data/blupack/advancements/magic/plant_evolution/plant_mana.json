@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:peony",
+            "tag" : "{Enchantments:[{id:0,lvl:0}]}"
+        },
+        "title": {
+          "text": "Now We're in Business",
+          "color": "light_purple"
+        },
+        "description": {
+          "text": "Evolve a plant to a Mana Flower",
+          "color": "light_green"
+        },
+        "frame": "task",
+        "hidden": "false"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "blupack:magic/plant_evolution/plant_start"
+}
+

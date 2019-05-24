@@ -1,0 +1,1 @@
+scoreboard objectives add half_xp deathCount

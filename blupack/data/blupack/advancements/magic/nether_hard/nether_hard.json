@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "title": {
+          "text": "Screams from Below",
+          "color": "dark_red"
+        },
+        "description": {
+          "text": "Unlock the Snekion Mages",
+          "color": "red"
+        },
+        "frame": "task",
+        "hidden": "true",
+        "announce_to_chat": "false"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "blupack:magic/root"
+}
+

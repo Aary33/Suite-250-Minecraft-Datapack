@@ -1,0 +1,1 @@
+scoreboard objectives add mine_spawner minecraft.mined:minecraft.spawner

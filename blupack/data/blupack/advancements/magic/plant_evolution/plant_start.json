@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oxeye_daisy"
+        },
+        "title": {
+          "text": "Botanical Evolution",
+          "color": "yellow"
+        },
+        "description": {
+          "text": "Bring a dead bush back to life",
+          "color": "light_green"
+        },
+        "frame": "task",
+        "hidden": "false"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "blupack:magic/root"
+}
+

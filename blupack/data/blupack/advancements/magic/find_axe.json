@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "title": {
+          "text": "Timber!",
+          "color": "green"
+        },
+        "description": {
+          "text": "Capitate a tree using a Lumber's Axe",
+          "color": "light_gray"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 20
+    },
+    "parent" : "minecraft:story/smelt_iron"
+}
+

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lilac"
+        },
+        "title": {
+          "text": "Novice of the Ancient Arts",
+          "color": "dark_purple",
+          "bold": "false"
+        },
+        "description": {
+          "text": "Cast a spell",
+          "color": "aqua"
+        },
+        "frame": "challenge",
+        "hidden": "true"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "blupack:magic/spells/scroll_find"
+}
+

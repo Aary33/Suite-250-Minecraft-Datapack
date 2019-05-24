@@ -1,0 +1,13 @@
+
+{
+  "type": "crafting_shaped",
+  "pattern": ["#X#","XAX","#X#"],
+  "key": {
+    "A": {"item": "minecraft:egg"},
+    "#": {"item": "minecraft:golden_apple"},
+    "X": {"item": "minecraft:brown_dye"}
+  },
+  "result": {
+    "item": "minecraft:horse_spawn_egg", "count": 0
+  }
+}
