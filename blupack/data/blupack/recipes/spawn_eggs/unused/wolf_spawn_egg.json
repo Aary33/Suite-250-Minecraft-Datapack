@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shaped",
+  "pattern": ["#X#","XAX","#X#"],
+  "key": {
+    "A": {"item": "minecraft:egg"},
+    "#": {"item": "minecraft:bone"},
+    "X": {"item": "minecraft:light_gray_dye"}
+  },
+  "result": {
+    "item": "minecraft:wolf_spawn_egg", "count": 0
+  }
+}

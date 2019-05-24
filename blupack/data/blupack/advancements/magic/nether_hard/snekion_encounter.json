@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:fire_charge"
+        },
+        "title": {
+          "text": "Close Call",
+          "color": "gold"
+        },
+        "description": {
+          "text": "Nearly get hit by a Snekion's meteor spell",
+          "color": "red"
+        },
+        "frame": "challenge",
+        "hidden": "false"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "blupack:magic/nether_hard/nether_hard"
+}
+

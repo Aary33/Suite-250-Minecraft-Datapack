@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sunflower",
+            "tag" : "{Enchantments:[{id:0,lvl:0}]}"
+        },
+        "title": {
+          "text": "Sun Power",
+          "color": "yellow"
+        },
+        "description": {
+          "text": "Evolve a plant to a Blooming Sun",
+          "color": "light_green"
+        },
+        "frame": "goal",
+        "hidden": "true"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "blupack:magic/plant_evolution/plant_start"
+}
+

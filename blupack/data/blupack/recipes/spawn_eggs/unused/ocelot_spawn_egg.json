@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shaped",
+  "pattern": ["#X#","XAX","#X#"],
+  "key": {
+    "A": {"item": "minecraft:egg"},
+    "#": {"item": "minecraft:cod"},
+    "X": {"item": "minecraft:yellow_dye"}
+  },
+  "result": {
+    "item": "minecraft:ocelot_spawn_egg", "count": 0
+  }
+}

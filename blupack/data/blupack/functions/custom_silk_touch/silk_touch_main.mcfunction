@@ -1,0 +1,4 @@
+#Silk Touch
+#Spawner Data
+execute as @a[scores={mine_spawner=1..},nbt={SelectedItem:{tag:{Enchantments:[{id:"minecraft:silk_touch",lvl:1}]}}}] at @s run give @s minecraft:spawner{HideFlags:61,display:{Lore:["{\"text\":\"All that's left is the cage.\",\"color\":\"gray\",\"italic\":\"false\"}","{\"text\":\"Crafting Ingredient\",\"color\":\"blue\",\"italic\":\"false\"}"],Name:"{\"text\":\"Empty Spawner\",\"color\":\"white\",\"italic\":\"false\"}"},BlockEntityTag:{SpawnPotentials:[{Entity:{id:"minecraft:item"},Weight:1}],SpawnData:{id:"minecraft:item"},SpawnCount:0s,SpawnRange:0s,Delay:-1s,MinSpawnDelay:999999s,MaxSpawnDelay:999999s,MaxNearbyEntities:0s,RequiredPlayerRange:0s}} 1
+scoreboard players set @a[scores={mine_spawner=1..}] mine_spawner 0

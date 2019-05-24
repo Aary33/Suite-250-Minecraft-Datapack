@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rose_bush",
+            "tag" : "{Enchantments:[{id:0,lvl:0}]}"
+        },
+        "title": {
+          "text": "Beauty that Kills",
+          "color": "dark_red"
+        },
+        "description": {
+          "text": "Evolve a plant to a Withering Rose",
+          "color": "light_green"
+        },
+        "frame": "goal",
+        "hidden": "true"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "blupack:magic/plant_evolution/plant_start"
+}
+

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:filled_map"
+        },
+        "title": {
+          "text": "Knowledge Seeker",
+          "color": "blue",
+          "bold": "false"
+        },
+        "description": {
+          "text": "Acquire an Ancient Scroll",
+          "color": "aqua"
+        },
+        "frame": "task",
+        "hidden": "false"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "blupack:magic/root"
+}
+

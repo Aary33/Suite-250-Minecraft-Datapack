@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {
+          "text": "Experience Hoarder",
+          "color": "green"
+        },
+        "description": {
+          "text": "Create an XP Collector",
+          "color": "yellow"
+        },
+        "frame": "task",
+        "hidden": "false"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [],
+        "loot": [""],
+        "experience": 100
+    },
+    "parent" : "blupack:magic/root"
+}
+
